@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lynn Restuarant</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Book a Table></h1>
+            <form method="Post">
+              <!-- 
+                <fieldset id="size">
+                    <label>
+                    <input type="radio" value="2" name="size"> 2-person table
+                    </label> 
+                    <label>
+                    <input type="radio" value="4" name="size" checked> 4-person table
+                    </label> 
+                    <label>
+                    <input type="radio" value="6" name="size"> 6-person table>
+                    </label> 
+                </fieldset>
+
+                <fieldset id="location">
+                    <label>
+                    <input type="radio" value="indoors" name="location" checked> Indoors
+                    </label> 
+                    <label>
+                    <input type="radio" value="outdoors" name="location"> Outdoors
+                    </label> 
+                </fieldset>
+                --> 
+                <div>
+                    <label form="booking_date">Booking Date</label>
+                    <input type="date" id="booking_date" name="booking_date">
+                </div>
+                <div>
+                    <label form="booking_date">Booking Date</label>
+                    <input type="range" id="booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value"> name="booking_date">
+                </div>
+                <div>
+                    <label form="booking_date">Booking Date</label>
+                    <input type="date" id="booking_date" name="booking_date">
+                </div>
+                <button type="submit">Book table</button>
+            </form>
+        </main>
+    </body>
+</html>
